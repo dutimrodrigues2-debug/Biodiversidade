@@ -1,0 +1,163 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.top {
+	background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+	color: white;
+	padding: 0;
+}
+
+.navbar {
+	background-color: rgba(0, 0, 0, 0.3) !important;
+	padding: 10px 20px;
+}
+
+.nav-link {
+	color: white !important;
+	border: 1px solid white;
+	padding: 10px 15px !important;
+	margin: 5px;
+	border-radius: 4px;
+	transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+	background-color: white;
+	color: #1e3c72 !important;
+}
+
+.header-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40px 20px;
+	text-align: center;
+	min-height: 150px;
+}
+
+.header-content h2 {
+	margin: 0;
+	font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
+ 
+.pri {
+	padding: 20px;
+}
+
+.pri h1 {
+	text-align: center;
+	font-size: clamp(1.5rem, 5vw, 2.2rem);
+	margin-bottom: 20px;
+}
+
+.pri p {
+	font-size: clamp(0.9rem, 3vw, 1.1rem);
+	line-height: 1.6;
+	margin-bottom: 20px;
+}
+
+.pri video {
+	width: 100%;
+	height: auto;
+	max-height: 500px;
+}
+
+.du {
+	padding: 20px;
+}
+
+.du h2 {
+	text-align: center;
+	font-size: clamp(1.3rem, 4vw, 1.9rem);
+	margin-bottom: 15px;
+}
+
+.du p {
+	font-size: clamp(0.9rem, 3vw, 1.1rem);
+	line-height: 1.6;
+	margin-bottom: 15px;
+}
+
+.ju {
+	padding: 20px;
+	clear: both;
+}
+
+.ju h3 {
+	font-size: clamp(1.3rem, 4vw, 1.9rem);
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.mato {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.mato img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+@media (min-width: 576px) {
+	.mato {
+		width: 48%;
+		float: left;
+		margin: 2%;
+	}
+}
+
+@media (min-width: 992px) {
+	.mato {
+		width: 30%;
+		float: left;
+		margin: 2%;
+	}
+}
+.ota {
+	padding: 20px;
+	clear: both;
+}
+
+.ota p {
+	font-size: clamp(0.9rem, 3vw, 1.1rem);
+	line-height: 1.6;
+	margin-bottom: 15px;
+}
+
+.ota h4 {
+	font-size: clamp(1.3rem, 4vw, 1.9rem);
+	margin: 20px 0 15px 0;
+}
+.bot a{
+	border: 1px solid black;
+	background: rgba(0, 0, 0, 0.2);
+	padding: 10px 30px;
+	border-radius: 40px;
+	margin-left: 8px;
+}
+
+.bot span{
+	border: 1px solid black;
+	background: rgba(0, 0, 0, 0.2);
+	padding: 10px 30px;
+	border-radius: 40px;
+}
+
+.bot img{
+	margin-bottom: -5px;
+}
+.bot {
+	background: yellowgreen;
+	height: 100px;
+	padding-top: 70px;
+	text-align: center;
+}

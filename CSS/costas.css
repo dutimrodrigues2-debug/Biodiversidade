@@ -1,0 +1,116 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.so {
+	background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);
+	color: white;
+	padding: 0;
+}
+
+.navbar {
+	background-color: rgba(0, 0, 0, 0.3) !important;
+	padding: 10px 20px;
+}
+
+.nav-link {
+	color: white !important;
+	border: 1px solid white;
+	padding: 10px 15px !important;
+	margin: 5px;
+	border-radius: 4px;
+	transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+	background-color: white;
+	color: #357abd !important;
+}
+
+.content {
+	padding: 20px;
+}
+
+.content h1 {
+	font-size: clamp(1.5rem, 5vw, 2.2rem);
+	margin-bottom: 20px;
+}
+
+.content h2 {
+	font-size: clamp(1.3rem, 4vw, 1.9rem);
+	margin: 20px 0 15px 0;
+}
+
+.content h3 {
+	font-size: clamp(1.1rem, 3.5vw, 1.5rem);
+	margin: 20px 0 15px 0;
+}
+
+.content p {
+	font-size: clamp(0.9rem, 3vw, 1.1rem);
+	line-height: 1.6;
+	margin-bottom: 15px;
+}
+
+.responsive-img {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 20px 0;
+	max-height: 500px;
+	object-fit: cover;
+}
+
+.su {
+	background: linear-gradient(135deg, #9c27b0 0%, #7b1fa2 100%);
+	padding: 40px 20px;
+	text-align: center;
+}
+
+.contact-link {
+	color: white;
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 12px 20px;
+	margin: 8px;
+	border-radius: 30px;
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	transition: all 0.3s ease;
+	font-size: clamp(0.8rem, 2vw, 1rem);
+}
+
+.contact-link:hover {
+	background-color: white;
+	color: #333;
+}
+
+.contact-icon {
+	width: 20px;
+	height: 20px;
+}
+
+.author-credit {
+	color: white;
+	padding: 12px 20px;
+	border: 1px solid white;
+	border-radius: 30px;
+	display: inline-block;
+	margin: 8px;
+	font-size: clamp(0.8rem, 2vw, 1rem);
+}
+
+@media (max-width: 575px) {
+	.contact-link,
+	.author-credit {
+		display: block;
+		margin: 8px 0;
+	}
+}
