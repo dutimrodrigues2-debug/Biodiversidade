@@ -88,6 +88,7 @@ html, body {
 .ju {
 	padding: 20px;
 	clear: both;
+	display: flex;
 }
 
 .ju h3 {
@@ -99,12 +100,14 @@ html, body {
 .mato {
 	width: 100%;
 	margin-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .mato img {
 	width: 100%;
 	height: auto;
-	display: block;
 }
 
 @media (min-width: 576px) {
@@ -198,4 +201,28 @@ html, body {
 	maring: 8px;
 	display: inline-block;
 	font-size: clamp(0.8rem, 2vw, 1rem);
+}
+.su {
+	background: linear-gradient(135deg, #ff69b4 0%, #ff1493 100%);
+	color: white;
+	padding: 0;
+}
+
+.navbar {
+	background-color: rgba(0, 0, 0, 0.3) !important;
+	padding: 10px 20px;
+}
+
+.nav-link {
+	color: white !important;
+	border: 1px solid white;
+	padding: 10px 15px !important;
+	margin: 5px;
+	border-radius: 4px;
+	transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+	background-color: white;
+	color: #ff1493 !important;
 }
