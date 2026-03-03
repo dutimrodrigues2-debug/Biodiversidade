@@ -117,6 +117,10 @@ html, body {
 		max-width: 100%;
 	}
 
+	.kb img{
+		width: 400px;
+	}
+
 	.bot a,
 	.bot span {
 		display: block;
